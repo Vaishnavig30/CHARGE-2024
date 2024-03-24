@@ -1,0 +1,216 @@
+**************** Team or testimonials  ********************/
+
+#team{
+    background: url();
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px 100px / 120px;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+}
+
+#team section img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+#team section div{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#team section div span{
+    font-size: 1rem;
+}
+
+#review_carousel{
+    margin: 15px;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 5px 22px 0 rgba( 31, 38, 135, 0.2);
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#review_carousel h5{
+    margin-bottom: 20px;
+}
+
+/* helper */
+
+#helping_hand{
+    background: url(assets/helping-hands-shape.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#helping_hand .row{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#hh_img1{
+    animation-name: anime-5;
+    animation-duration: 1.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anime-5{
+    0%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(20px);
+
+    }
+}
+
+
+#hh_img2 img{
+    margin: 20px 10px;
+    max-width: 350px;
+    border-radius: 15px;
+    transition: all .8s ease-in;
+}
+
+#helping_hand:hover #hh_img2 img{
+    transform: scale(1.20);
+}
+
+/******************** become Volunteer ********************/
+
+#help{
+    background: url(assets/sketch-4.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#volunteer{
+    background: url(assets/sketch-5.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#volunteer a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s ease;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.24);
+}
+
+#volunteer a:hover{
+    color: white;
+    font-weight: normal;
+    background-color: orangered;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.44);
+}
+
+
+/********************* footer ********************/
+
+#footer{
+    background: url(assets/footer.jpeg);
+    background-size: contain;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#footer .row{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#footer .row h4{
+    margin: 20px 10px;
+    color: white;
+}
+
+
+#footer .link a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 8px;
+    margin: 5px;
+    transition: all .5s ease;
+}
+
+#footer .link a:hover{
+    color: red;
+    transform: scale(1.10);
+}
+
+#footer .f_contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    margin: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  #navbarNav li {
+    margin: auto;
+  }
+
+  .top_carousel .carousel-item img {
+    margin: 40px 0;
+  }
+
+  .top_carousel .carousel-item h1 {
+    font-size: 1rem;
+  }
+
+  .top_carousel .carousel-item h5 {
+    font-size: 0.7rem;
+  }
+
+  #welcome .offset-md-2 {
+    background: none;
+  }
+
+  #achieve h1 {
+    font-size: 1.5rem;
+  }
+
+  .count_div p {
+    font-size: 1rem;
+  }
+
+  #volunteer {
+    background: none;
+  }
+
+  #help {
+    background: none;
+  }
+
+  #hh_img2 img{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  #helping_hand:hover #hh_img2 img{
+    transform: scale(0.90);
+  }
+
+  #footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+/********************* about page ********************/
